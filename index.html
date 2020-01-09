@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EUNHYE'S HOMEPAGE</title>
+    <!-- 제이쿼리 -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- 호버 플러그인 -->
+    <script src="./js/jquery.hoverdir.js"></script>
+    <!-- 자바스크립트 -->
+    <!-- <link rel="stylesheet" href="./js/full-page-scroll.js">
+    <link rel="stylesheet" href="./js/full-page-scroll.min.js"> -->
+    <!-- 사용자 자바스크립트 -->
+    <script src="./js/main.js"></script>
+    <!-- fancybox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- 스타일 -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery.hoverdir.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- <link rel="stylesheet" href="./css/full-page-scroll.css">
+    <link rel="stylesheet" href="./css/full-page-scroll.min.css"> -->
+    <!-- 폰트어썸 -->
+    <script src="https://kit.fontawesome.com/42bc809b80.js" crossorigin="anonymous"></script>
+    <!-- 폰트 바운스 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+</head>
+<body>
+    <!-- 헤더 -->
+    <div id="main" class="scroll-container">
+    <header id="main_header">
+        <div class="container">
+            <div class="text">
+            <h1 class="animated bounce" >PARK EUNHYE</h1>
+            <p class="animated bounce">Web Publisher, Web designer</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- gnb메뉴바 -->
+    <nav id="main_gnb">
+        <div class="container">
+        <ul class="depth1">
+            <li><a href="#main_header">Home</a></li>
+            <li><a href="#s1">About</a></li>
+            <li><a href="#s2">Portfolio</a></li>
+            <li><a href="#s3">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <!-- 오른쪽 페이지 표시 -->
+    <!-- <nav id="pager">
+        <ul>
+          <li class="on"><a href="#main_header">1</a></li>
+          <li><a href="#s1">2</a></li>
+          <li><a href="#s2">3</a></li>
+          <li><a href="#s3">4</a></li>
+        </ul>
+      </nav> -->
+
+    <!-- 인포 -->
+    <section id="s1">
+        <div class="container">
+            <h2>About</h2>
+            <div class="box1">
+                <div class="text_box">
+                <h3>PARK EUNHYE</h3>
+                <p>1993.03.09 <br> 서울시 양천구 거주</p>
+            </div>
+            </div>
+            <div class="box2">
+                <div class="text_box">
+                <h3>EUCATION</h3>
+                <p>홍익디자인고등학교 <small><!-- 2009 ~ 2011 -->졸업</small> <br> 백석예술대학교 <small><!-- 2012.02 ~ 2014.02 -->졸업</small></p>
+            </div>
+            </div>
+            <div class="box3">
+                <div class="text_box">
+                <h3>CERTIFICATION</h3>
+                <p>컴퓨터그래픽스운용기능사 <small>2011.07</small> <br> GTQ 1급 <small>2015.09</small></p>
+            </div>
+            </div>
+            <div class="box4">
+                <div class="text_box">
+                <h3>SKILLS</h3>
+                <p>
+                    <img src="http://placehold.it/42x42" alt="icon1">
+                    <img src="http://placehold.it/42x42" alt="icon2">
+                    <img src="http://placehold.it/42x42" alt="icon3">
+                    <img src="http://placehold.it/42x42" alt="icon4">
+                    <img src="http://placehold.it/42x42" alt="icon5">
+                    <img src="http://placehold.it/42x42" alt="icon6">
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 페이지이동스크립트 -->
+    <script>
+        function setChildValue(index) {
+          // 페이지 이동
+          window.location.href = "./treatment2.html?index=" + index;
+          return false;
+        }
+      </script><!-- script end -->
+
+    <!-- 메인 -->
+    <section id="s2">
+        <div class="container_wrap">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="wrap">
+                <div class="menu">
+                    <ul>
+                        <li class="web">Web Design</li>
+                        <li class="mobile">Mobile Design</li>
+                        <li class="homepage">Renewal Homepage</li>
+                        <li class="sns">SNS Design</li>
+                        <li class="book">Book Design</li>
+                        <li class="project">Graduation Project</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="po_wrap t1">
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
+                    <img src="http://placeimg.com/279/239/15" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
+                    <img src="http://placeimg.com/350/300/10" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cafe.naver.com/csslick">
+                    <img src="http://placeimg.com/350/300/10" />
+                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="po_wrap t2">
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
+                    <img src="http://placeimg.com/350/300/11" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
+                    <img src="http://placeimg.com/350/300/2" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cafe.naver.com/csslick">
+                    <img src="http://placeimg.com/350/300/3" />
+                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="po_wrap t3">
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
+                    <img src="http://placeimg.com/350/300/1" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
+                    <img src="http://placeimg.com/350/300/2" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cafe.naver.com/csslick">
+                    <img src="http://placeimg.com/350/300/3" />
+                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="po_wrap t4">
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
+                    <img src="http://placeimg.com/350/300/1" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
+                    <img src="http://placeimg.com/350/300/2" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cafe.naver.com/csslick">
+                    <img src="http://placeimg.com/350/300/3" />
+                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="po_wrap t5">
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
+                    <img src="http://placeimg.com/350/300/1" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
+                    <img src="http://placeimg.com/350/300/2" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cafe.naver.com/csslick">
+                    <img src="http://placeimg.com/350/300/3" />
+                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="po_wrap t6">
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
+                    <img src="http://placeimg.com/350/300/1" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
+                    <img src="http://placeimg.com/350/300/2" />
+                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cafe.naver.com/csslick">
+                    <img src="http://placeimg.com/350/300/3" />
+                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/5" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/4" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/16" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="http://placeimg.com/350/300/6" />
+                    <div><span>내 작품 제목</span></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            </div><!-- end container -->
+          </section>
+          
+        
+
+    <!-- 컨텍 -->
+    <section id="s3">
+        <div class="container">
+        <h2>Contact</h2>
+        <div class="icon_wrap">
+            <a href="mailto:dmsglgl93@naver.com">
+         <div class="mail">
+            <i class="far fa-envelope"></i>
+            <div class="text_mail">
+             <span>E-mail</span>
+             <p>dmsglgl93@naver.com</p>
+            </div>
+        </a>
+         </div>
+         <div class="mobile">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="text_mobile">
+             <span>Mobile</span>
+             <p>010.9305.5221</p>
+            </div>
+         </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer id="main_footer">
+        <div class="container">
+            <div class="footer_text">
+            <span>PARKEUNHYE'S HOMEPAGE</span> <br> 
+            <p>© 2020 A Template Designed by park,eunhye</p>
+        </div>
+        </div>
+    </footer>
+</div>
+    
+</body>
+</html>
