@@ -53,40 +53,56 @@
         </div>
     </nav>
 
-    <!-- 오른쪽 페이지 표시 -->
-    <!-- <nav id="pager">
-        <ul>
-          <li class="on"><a href="#main_header">1</a></li>
-          <li><a href="#s1">2</a></li>
-          <li><a href="#s2">3</a></li>
-          <li><a href="#s3">4</a></li>
-        </ul>
-      </nav> -->
+
+<script type="text/javascript">
+  window.onload = function(){
+    // 효과가 지정될 이미지 목록 요소명 지정
+    $('#da-thumbs > li').hoverdir();      
+  }    
+</script>
 
     <!-- 인포 -->
     <section id="s1">
         <div class="container">
-            <h2>About</h2>
-            <div class="box1">
+            <h2><span>---</span> About <span>---</span></h2>
+            <div class="visual">
                 <div class="text_box">
+                  <span class="top"></span>
+                  <span class="right"></span>
+                  <span class="bottom"></span>
+                  <span class="left"></span>
                 <h3>PARK EUNHYE</h3>
                 <p>1993.03.09 <br> 서울시 양천구 거주</p>
             </div>
             </div>
-            <div class="box2">
-                <div class="text_box">
+            <div class="visual">
+            <div class="text_box">
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              <span class="left"></span>
                 <h3>EUCATION</h3>
                 <p>홍익디자인고등학교 <small><!-- 2009 ~ 2011 -->졸업</small> <br> 백석예술대학교 <small><!-- 2012.02 ~ 2014.02 -->졸업</small></p>
             </div>
-            </div>
-            <div class="box3">
-                <div class="text_box">
+          </div>
+            <div class="visual">
+            <div class="text_box">
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              <span class="left"></span>
+                <div class="text_box1">
                 <h3>CERTIFICATION</h3>
                 <p>컴퓨터그래픽스운용기능사 <small>2011.07</small> <br> GTQ 1급 <small>2015.09</small></p>
             </div>
+          </div>
             </div>
-            <div class="box4">
-                <div class="text_box">
+            <div class="visual">
+            <div class="text_box">
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              <span class="left"></span>
                 <h3>SKILLS</h3>
                 <p>
                     <img src="http://placehold.it/42x42" alt="icon1">
@@ -101,26 +117,19 @@
         </div>
     </section>
 
-    <!-- 페이지이동스크립트 -->
-    <script>
-        function setChildValue(index) {
-          // 페이지 이동
-          window.location.href = "./treatment2.html?index=" + index;
-          return false;
-        }
-      </script><!-- script end -->
+    
 
     <!-- 메인 -->
     <section id="s2">
         <div class="container_wrap">
         <div class="container">
-            <h2>Portfolio</h2>
+            <h2><span>---</span> Portfolio <span>---</span></h2>
             <div class="wrap">
                 <div class="menu">
                     <ul>
+                      <li class="homepage">Renewal Homepage</li>
                         <li class="web">Web Design</li>
                         <li class="mobile">Mobile Design</li>
-                        <li class="homepage">Renewal Homepage</li>
                         <li class="sns">SNS Design</li>
                         <li class="book">Book Design</li>
                         <li class="project">Graduation Project</li>
@@ -130,21 +139,21 @@
             <div class="po_wrap t1">
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
-                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
-                    <img src="http://placeimg.com/279/239/15" />
-                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                  <a data-fancybox="gallery" href="./image/w_mall.png">
+                    <img src="../홈페이지 포트폴리오/image/w_mall1.png" />
+                    <div><span><strong>wear_mall</strong> <br> 쇼핑몰로 로고와 함께 메인 홈페이지를 제작했습니다.
+                      <button class="tb_btn1" type="button">자세히보기</button> <br>
+                      <button class="tb_btn2" type="button" onclick="window.open('https://eeehye.github.io/wear_mall/')">웹사이트 바로가기</button></span>
+                    </div>
                   </a>
                 </li>
                 <li>
-                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
-                    <img src="http://placeimg.com/350/300/10" />
-                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://cafe.naver.com/csslick">
-                    <img src="http://placeimg.com/350/300/10" />
-                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
+                  <a data-fancybox="gallery" href="./image/w_mall.png">
+                    <img src="../홈페이지 포트폴리오/image/w_mall1.png" />
+                    <div><span><strong>adidas *반응형 홈페이지</strong> <br> 아디다스 온라인 쇼핑몰을 반응형 홈페이지로 만들었습니다.
+                      <button class="tb_btn3" type="button">자세히보기</button> <br>
+                      </span>
+                    </div>
                   </a>
                 </li>
                 <li>
@@ -186,63 +195,63 @@
               </ul>
             </div>
             <div class="po_wrap t2">
-            <ul id="da-thumbs" class="da-thumbs">
-                <li>
-                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
-                    <img src="http://placeimg.com/350/300/11" />
-                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a data-fancybox="gallery" href="http://placeimg.com/400/400/2">
-                    <img src="http://placeimg.com/350/300/2" />
-                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://cafe.naver.com/csslick">
-                    <img src="http://placeimg.com/350/300/3" />
-                    <div><span>내 작품 제목(작품 상세페이지 이동)</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="http://placeimg.com/350/300/4" />
-                    <div><span>내 작품 제목</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="http://placeimg.com/350/300/5" />
-                    <div><span>내 작품 제목</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="http://placeimg.com/350/300/6" />
-                    <div><span>내 작품 제목</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="http://placeimg.com/350/300/4" />
-                    <div><span>내 작품 제목</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="http://placeimg.com/350/300/5" />
-                    <div><span>내 작품 제목</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="http://placeimg.com/350/300/6" />
-                    <div><span>내 작품 제목</span></div>
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <ul id="da-thumbs" class="da-thumbs">
+                  <li>
+                    <a data-fancybox="gallery" href="./image/w_mall.png">
+                      <img src="../홈페이지 포트폴리오/image/w_mall1.png" />
+                      <div><span><strong>wear_mall</strong> <br> 쇼핑몰로 로고와 함께 메인 홈페이지를 제작했습니다.
+                        <button class="tb_btn1" type="button">자세히보기</button> <br>
+                        <button class="tb_btn2" type="button" onclick="window.open('https://eeehye.github.io/wear_mall/')">웹사이트 바로가기</button></span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-fancybox="gallery" href="./image/w_mall.png">
+                      <img src="../홈페이지 포트폴리오/image/w_mall1.png" />
+                      <div><span><strong>adidas *반응형 홈페이지</strong> <br> 아디다스 온라인 쇼핑몰을 반응형 홈페이지로 만들었습니다.
+                        <button class="tb_btn3" type="button">자세히보기</button> <br>
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placeimg.com/350/300/4" />
+                      <div><span>내 작품 제목</span></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placeimg.com/350/300/5" />
+                      <div><span>내 작품 제목</span></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placeimg.com/350/300/6" />
+                      <div><span>내 작품 제목</span></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placeimg.com/350/300/4" />
+                      <div><span>내 작품 제목</span></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placeimg.com/350/300/5" />
+                      <div><span>내 작품 제목</span></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placeimg.com/350/300/6" />
+                      <div><span>내 작품 제목</span></div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             <div class="po_wrap t3">
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
@@ -422,7 +431,8 @@
                 <li>
                   <a data-fancybox="gallery" href="http://placeimg.com/400/400/1">
                     <img src="http://placeimg.com/350/300/1" />
-                    <div><span>내 작품 제목(팬시박스 열기)</span></div>
+                    <div><span>내 작품 제목(팬시박스 열기)
+                    </span></div>
                   </a>
                 </li>
                 <li>
@@ -483,11 +493,13 @@
     <!-- 컨텍 -->
     <section id="s3">
         <div class="container">
-        <h2>Contact</h2>
+        <h2><span>---</span> Contact <span>---</span></h2>
         <div class="icon_wrap">
             <a href="mailto:dmsglgl93@naver.com">
          <div class="mail">
+           <div class="icon_wrap2">
             <i class="far fa-envelope"></i>
+          </div>
             <div class="text_mail">
              <span>E-mail</span>
              <p>dmsglgl93@naver.com</p>
@@ -495,7 +507,9 @@
         </a>
          </div>
          <div class="mobile">
+          <div class="icon_wrap2">
             <i class="fas fa-mobile-alt"></i>
+          </div>
             <div class="text_mobile">
              <span>Mobile</span>
              <p>010.9305.5221</p>
