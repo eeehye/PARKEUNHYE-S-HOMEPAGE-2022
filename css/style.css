@@ -65,7 +65,7 @@ body h2{
     text-align: center;
     width: 100%;
     height: 50px;
-    background: rgba(157, 100, 184, 0.061);
+    background: #f9f5fb;
     line-height: 50px;
 }
 #main_gnb.fixed{
@@ -186,7 +186,7 @@ body h2{
     height: 100%;
   }
   #s1 .visual .text_box img{
-    padding-left: 32px;
+    padding-left: 30px;
     padding-top: 13px;
 }
 #s1 .visual .text_box img:first-child{
