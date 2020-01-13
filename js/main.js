@@ -2,18 +2,20 @@
 $(document).ready(function () {
 
   // 고정 메뉴
-  $(window).scroll(function(){
-    var menu_top = document.querySelector('#main_gnb').offsetTop;
-    var win_scroll = document.documentElement.scrollTop;
-    if(win_scroll > menu_top){
-      $('#main_gnb').addClass('fixed');
-    } else {
-      $('#main_gnb').removeClass('fixed');
-    }
+  window.onscroll = function(){
+var sec1 = document.querySelector('#main_lnb');
+var menu = document.querySelector('#main_gnb');
+var sec1_top = sec1.offsetTop;
+var b = window.pageYOffset;
+var i = document.getElementById("bear1");
 
-    console.log(menu_top, win_scroll);
-    
-  })
+if(sec1_top <= b){
+  menu.classList.add('fixed');
+
+} else{
+  menu.classList.remove('fixed');
+}
+}
 
   $('.menu ul li').click(function () {
     $('#pp_wrap').addClass('none');
