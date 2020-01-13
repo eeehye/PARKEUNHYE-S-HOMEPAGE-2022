@@ -15,6 +15,9 @@ $(document).ready(function () {
     
   })
 
+  $('.menu ul li').click(function () {
+    $('#pp_wrap').addClass('none');
+  });
   $('.homepage').click(function () {
     $('.menu ul li').removeClass('show');
     $(this).removeClass('show');
