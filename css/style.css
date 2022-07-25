@@ -17,7 +17,8 @@ body{
     color: #333;
 }
 body h2{
-    color: rgba(117, 76, 136, 0.78);
+    color: #549fe3;
+    text-decoration: underline ;
 }
 /* container */
 .container{
@@ -36,6 +37,8 @@ body h2{
     background-attachment: fixed;
     width: 100%;
     height: 350px;
+    max-width: 100%;
+    min-width: 1200px;
 }
 #main_header .container{
     position: relative;
@@ -51,12 +54,12 @@ body h2{
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 5px;
-    color: #fff;
+    color: #549fe3;
 }
 .container .text p{
     font-size: 25px;
     font-weight: lighter;
-    color: #fff;
+    color: #549fe3;
 }
 
 /* gnb메뉴바 */
@@ -65,7 +68,7 @@ body h2{
     text-align: center;
     width: 100%;
     height: 50px;
-    background: #f9f5fb;
+    background: #a1c9ed;
     line-height: 50px;
 }
 #main_gnb.fixed{
@@ -88,10 +91,10 @@ body h2{
     padding-left: 0;
 }
 #main_gnb .depth1 li a{
-    color: #444;
+    color: #fff;
 }
 #main_gnb .depth1 li a:hover{
-    color: rgba(49, 33, 56, 0.575);
+    color: #1668b5;
 }
 
 /* 인포 */
@@ -121,13 +124,16 @@ body h2{
 #s1 .visual .text_box h3{
     font-size: 30px;
     padding-top: 10px;
+    color: #549fe3;
 }
 #s1 .visual .text_box p{
     font-size: 17px;
     padding-top: 15px;
+    color: #989898;
+    line-height: 25px;
 }
 #s1 .visual .text_box p small{
-    color: #999;
+    color: #bababa;
     padding-left: 20px;
     font-size: 13px;
 }
@@ -137,7 +143,7 @@ body h2{
     transition: 1s;
     padding: 1em 2em;
     transform: 1s;
-    background: rgb(247, 248, 255);
+    background: #f5f9fc;
     margin-top: 65px;
     /* border: 1px solid red; */
   }
@@ -152,25 +158,25 @@ body h2{
   #s1 .visual .text_box .top{
     position: absolute;
     left: 0; top: 0;
-    border-top: 5px solid rgb(159, 162, 199);
+    border-top: 5px solid #a1c9ed;
     width: 0px;
   }
   #s1 .visual .text_box .right{
     position: absolute;
     right: 0; top: 0;
-    border-right: 5px solid rgb(159, 162, 199);
+    border-right: 5px solid #a1c9ed;
     height: 0px;
   }
   #s1 .visual .text_box .bottom{
     position: absolute;
     right: 0; bottom: 0;
-    border-bottom: 5px solid rgb(159, 162, 199);
+    border-bottom: 5px solid #a1c9ed;
     width: 0px;
   }
   #s1 .visual .text_box .left{
     position: absolute;
     left: 0; bottom: 0;
-    border-left: 5px solid rgb(159, 162, 199);
+    border-left: 5px solid #a1c9ed;
     height: 0px;
   }
   #s1 .visual .text_box:hover .top{
@@ -186,7 +192,7 @@ body h2{
     height: 100%;
   }
   #s1 .visual .text_box img{
-    padding-left: 30px;
+    padding-left: 32px;
     padding-top: 13px;
 }
 #s1 .visual .text_box img:first-child{
@@ -225,7 +231,6 @@ body h2{
 
 #s2 #pp_wrap{
     position: relative;
-    width: 1200px;
     height: 880px;
     margin: 0 auto;
     /* outline: 1px solid red; */
@@ -244,7 +249,7 @@ body h2{
     position: absolute;
 }
 #s2 #pp_wrap .mo_P{
-    left: 53%;
+    left: 72%;
     top: 15%;
     position: absolute;
 }
@@ -261,7 +266,7 @@ body h2{
     width: 528px;
     height: 350px;
     position: absolute;
-    left: 3.95%;
+    left: 4.35%;
     top: 17.6%;
     /* left: %; */
     z-index: -1;
@@ -279,14 +284,14 @@ body h2{
     transform: translate(0, -522px);
 }
 #s2 .mo_img_P2 {
-    width: 528px;
+    width: 205px;
     height: 400px;
     position: absolute;
-    left: 54.25%;
+    left: 73.7%;
     top: 21%;
-    /* left: %; */
     z-index: -1;
     overflow: hidden;
+    /* outline: 1px solid red; */
 }
 #s2 .mo_img_P2 .img2 {
     width: 205px;
@@ -302,8 +307,8 @@ body h2{
 #s2 .hover_circle {
     position: absolute;
     top: 11%;
-    left: 20%;
-    color: rgb(105, 110, 168);
+    left: 26.5%;
+    color: #549fe3;
     width: 150px;
     height: 30px;
     text-align: center;
@@ -313,7 +318,7 @@ body h2{
     padding: 5px;
     opacity: 1;
     z-index: 1;
-    border: 1px solid rgb(105, 110, 168);
+    border: 1px solid #549fe3;
 }
 /* #s2 .hover_circle i{
     font-size: 12px;
@@ -331,8 +336,8 @@ body h2{
 #s2 .hover_circle2 {
     position: absolute;
     top: 11%;
-    left: 56.3%;
-    color: rgb(105, 110, 168);
+    left: 76.5%;
+    color: #549fe3;
     width: 150px;
     height: 30px;
     text-align: center;
@@ -342,7 +347,7 @@ body h2{
     padding: 5px;
     opacity: 1;
     z-index: 1;
-    border: 1px solid rgb(105, 110, 168);
+    border: 1px solid #549fe3;
 }
 #s2 .fa-mouse-pointer {
     font-size: 25px;
@@ -363,7 +368,7 @@ body h2{
     color: rgb(202, 202, 202);
 }
 .menu ul li.show{
-    color: rgba(63, 70, 141, 0.876);
+    color: #549fe3;
 }
 .po_wrap {
     display: none;
@@ -391,7 +396,7 @@ body h2{
     float: left;
     width: 300px;
     height: 250px;
-    background: rgba(63, 70, 141, 0.061);
+    background: #f5f9fc;
     border-radius: 15px;
     margin-left: 225px;
 }
@@ -418,7 +423,7 @@ body h2{
 #s3 .icon_wrap .mail i{
     font-size: 60px;
     line-height: 114px;
-    color: rgba(63, 70, 141, 0.876);
+    color: #549fe3;
 }
 #s3 .icon_wrap .mail i:hover{
     transform: scale(1.2, 1.2);
@@ -430,12 +435,18 @@ body h2{
 }
 #s3 .icon_wrap .mail .text_mail span{
     font-size: 20px;
+    color: #549fe3;
+}
+#s3 .icon_wrap .mail .text_mail p{
+    font-size: 17px;
+    color: rgb(145, 145, 145);
+    line-height: 25px;
 }
 #s3 .icon_wrap .mobile{
     float: left;
     width: 300px;
     height: 250px;
-    background: rgba(63, 70, 141, 0.061);
+    background: #f5f9fc;
     border-radius: 15px;
     margin-left: 150px;
     margin-bottom: 200px;
@@ -461,7 +472,7 @@ body h2{
     transition: 0.5s;
 }
 #s3 .icon_wrap .mobile i{
-    color: rgba(63, 70, 141, 0.876);
+    color: #549fe3;
     font-size: 60px;
     line-height: 114px;
 }
@@ -475,21 +486,27 @@ body h2{
 }
 #s3 .icon_wrap .mobile .text_mobile span{
     font-size: 20px;
+    color: #549fe3;
+}
+#s3 .icon_wrap .mobile .text_mobile p{
+    font-size: 17px;
+    color: rgb(145, 145, 145);
+    line-height: 25px;
 }
 
 /* 푸터 */
 #main_footer{
     clear: both;
     width: 100%;
-    background: #fafafa;
+    background: #8a8a8a;
     text-align: center;
     height: 100px;
 }
 #main_footer .footer_text{
-    padding-top: 28px;
+    padding-top: 33px;
     font-size: 15px;
-    color: #999;
+    color: #ababab;
 }
 #main_footer .footer_text p{
-    padding-top: 0.4em;
+    line-height: 25px;
 }
